@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "260861355650",
+    "firebase_url": "https://unsw-infs3605-default-rtdb.firebaseio.com",
+    "project_id": "unsw-infs3605",
+    "storage_bucket": "unsw-infs3605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260861355650:android:640f2a7288adf71288f69b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260861355650-re5elh4qk1h5du48sptr89qmjl3kfvd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLb9iTqTjKId_PcatqTEvo-9UVfd6Eyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260861355650-re5elh4qk1h5du48sptr89qmjl3kfvd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

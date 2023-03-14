@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90D9C0"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainpage_button"
+        android:fontFamily="sans-serif-black"
+        android:text="Log in"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logodraft" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainpage_button"
+        android:fontFamily="sans-serif-black"
+        android:text="Sign in"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/logodraft"
+        android:layout_width="311dp"
+        android:layout_height="381dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/draft_logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
