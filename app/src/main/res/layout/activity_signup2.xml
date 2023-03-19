@@ -102,7 +102,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/log_in"
+            android:text="CANCEL"
             android:background="#60281E"
             android:fontFamily="@font/muli_black"
             android:textColor="@color/white"

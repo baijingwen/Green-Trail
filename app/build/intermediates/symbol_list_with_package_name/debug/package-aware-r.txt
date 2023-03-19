@@ -1377,6 +1377,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -2078,6 +2082,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -3077,6 +3083,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id buttonPanel
 id button_search
 id cache_measures
@@ -3250,6 +3261,7 @@ id linear_layout
 id listMode
 id list_item
 id locale
+id loginBtn
 id loginButton
 id loginToAppButton
 id logodraft
@@ -3331,6 +3343,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextBtn
 id noScroll
 id noState
 id none
@@ -3672,6 +3685,8 @@ layout activity_search_plant
 layout activity_signup
 layout activity_signup2
 layout activity_weather
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3824,6 +3839,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string creat_account
+string default_web_client_id
 string enter_email
 string enter_full_name
 string enter_password
@@ -3832,6 +3848,12 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -3941,6 +3963,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

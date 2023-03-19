@@ -105,6 +105,7 @@ id imageView3
 id imageView4
 id inputAddPost
 id likeCounter
+id loginBtn
 id loginButton
 id loginToAppButton
 id logodraft
@@ -113,6 +114,7 @@ id momentsFragment
 id myPlantsFragment
 id name_layout
 id navView
+id nextBtn
 id placeholder
 id plants_kl
 id plants_layout
@@ -170,12 +172,20 @@ navigation bottom_button
 string User_name
 string app_name
 string creat_account
+string default_web_client_id
 string enter_email
 string enter_full_name
 string enter_password
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string log_in
 string next_button
+string project_id
 style Theme.MyApplication
 xml backup_rules
 xml data_extraction_rules
