@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 public class Signup extends AppCompatActivity implements View.OnClickListener {
 
     private Button nextButton, loginButton;
+    //private TextInputEditText fullName
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
