@@ -11,17 +11,26 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:padding="20dp"
             android:background="#9AB098">
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="#9AB098"
+                android:padding="0dp"
+                android:src="@drawable/ic_back"/>
+
 
             <ImageView
                 android:id="@+id/user_image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="80dp"
                 android:src="@drawable/ic_user" />
 
             <TextView
@@ -155,6 +164,7 @@
                 android:layout_marginBottom="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullNameChange"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Jingwen Bai"
@@ -169,6 +179,7 @@
                 android:layout_marginBottom="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailChange"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="billbaij@gmail.com"
@@ -183,6 +194,7 @@
                 android:layout_marginBottom="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/degreeChange"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Information system"
@@ -231,6 +243,7 @@
 
 
             <Button
+                android:id="@+id/updateButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

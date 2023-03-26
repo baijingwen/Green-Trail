@@ -36,6 +36,7 @@
                 android:fontFamily="@font/muli_black"/>
 
             <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
@@ -81,6 +82,7 @@
                 android:fontFamily="@font/muli_black"/>
 
             <DatePicker
+                android:id="@+id/datePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:datePickerMode="spinner"
@@ -90,6 +92,7 @@
         </LinearLayout>
 
         <Button
+            android:id = "@+id/saveBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Save"
@@ -100,9 +103,10 @@
             android:elevation="5dp"/>
 
         <Button
+            android:id = "@+id/cancelButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/log_in"
+            android:text="CANCEL"
             android:background="#60281E"
             android:fontFamily="@font/muli_black"
             android:textColor="@color/white"

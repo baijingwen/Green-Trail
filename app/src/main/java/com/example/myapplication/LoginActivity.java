@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextInputEditText editTextEmail, editTextPassword;
-    private Button login;
+    private Button login, signUp;
     private FirebaseAuth mAuth;
 
 
@@ -29,7 +29,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //click to login based on entered information
         login = (Button) findViewById(R.id.loginToAppButton);
+        signUp = (Button) findViewById(R.id.signupToAppButton);
         login.setOnClickListener(this);
+        signUp.setOnClickListener(this);
 
         editTextEmail = (TextInputEditText) findViewById(R.id.textEditUserName);
         editTextPassword = (TextInputEditText) findViewById(R.id.textEditPassword);
@@ -41,11 +43,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             switch (view.getId()) {
                 case R.id.loginToAppButton:
                     userLogin();
+                    startActivity(new Intent(LoginActivity.this, AssignmentActivity.class));
                     break;
+                case R.id.signupToAppButton:
+                    startActivity(new Intent(LoginActivity.this, Signup.class));
             }
         }
         private void userLogin() {
-        //collect user's information
+            //collect user's information
             String email = editTextEmail.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
 
