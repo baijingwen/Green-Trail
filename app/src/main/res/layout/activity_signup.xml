@@ -31,6 +31,7 @@
             android:layout_marginTop="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Full Name (Cannot change)"
@@ -46,6 +47,7 @@
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id = "@+id/fullName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"/>
@@ -67,6 +69,7 @@
                 app:boxStrokeColor="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id = "@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"/>
@@ -87,6 +90,7 @@
                 app:boxStrokeColor="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"/>
@@ -109,6 +113,7 @@
                 app:boxStrokeColor="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"/>
@@ -131,6 +136,7 @@
                 app:boxStrokeColor="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id = "@+id/degree"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"/>
@@ -150,7 +156,7 @@
             android:elevation="5dp"/>
 
         <Button
-            android:id = "@+id/loginBtn"
+            android:id = "@+id/cancelBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CANCEL"

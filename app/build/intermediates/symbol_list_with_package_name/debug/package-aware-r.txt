@@ -634,6 +634,7 @@ attr imagePanX
 attr imagePanY
 attr imageRotate
 attr imageZoom
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -1017,6 +1018,7 @@ attr roundPercent
 attr route
 attr saturation
 attr scaleFromTextSize
+attr scaleType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -2851,6 +2853,7 @@ drawable ic_50n
 drawable ic_acacia_elata
 drawable ic_add_post
 drawable ic_arrow_back_black_24
+drawable ic_back
 drawable ic_birth
 drawable ic_brachychiton_acerifolius
 drawable ic_cissus_antarctica
@@ -2891,8 +2894,11 @@ drawable ic_search_black_24
 drawable ic_send
 drawable ic_thumb_up
 drawable ic_user
+drawable ic_video
+drawable ic_videobutton
 drawable ic_weather_layout
 drawable input_add_post_bg
+drawable input_comment_bg
 drawable intro_background
 drawable loading
 drawable login_logo
@@ -3092,6 +3098,9 @@ id buttonPanel
 id button_search
 id cache_measures
 id callMeasure
+id cameraPreviewView
+id cancelBtn
+id cancelButton
 id cancel_button
 id carryVelocity
 id center
@@ -3112,7 +3121,10 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collect_button
 id commentsCounter
+id commentsimage
+id compatible
 id compress
 id confirm_button
 id constraint
@@ -3132,11 +3144,14 @@ id customPanel
 id cut
 id daily_plants
 id dark
+id datePicker
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id degree
+id degreeChange
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3168,6 +3183,8 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email
+id emailChange
 id embed
 id end
 id endToStart
@@ -3179,6 +3196,9 @@ id expanded_menu
 id fab
 id fade
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
@@ -3194,6 +3214,8 @@ id forever
 id fragment
 id fragment_container_view_tag
 id frost
+id fullName
+id fullNameChange
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -3233,14 +3255,13 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView3
-id imageView4
 id image_view
 id immediateStop
 id included
 id indeterminate
 id info
 id inputAddPost
+id inputcomments
 id invisible
 id inward
 id italic
@@ -3254,6 +3275,7 @@ id leftToRight
 id legacy
 id light
 id likeCounter
+id likeimage
 id line1
 id line3
 id linear
@@ -3261,12 +3283,12 @@ id linear_layout
 id listMode
 id list_item
 id locale
-id loginBtn
 id loginButton
 id loginToAppButton
 id logodraft
 id ltr
 id m3_side_sheet
+id map
 id mapFragment
 id marquee
 id masked
@@ -3365,11 +3387,13 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
+id performance
 id pin
 id placeholder
 id plants_kl
@@ -3382,16 +3406,20 @@ id posttime
 id pressed
 id profile
 id profileimage
+id profileimage_comment
 id profilelayout
 id profileusernamepost
 id progress_circular
 id progress_horizontal
+id qrCideTxt
 id radio
 id radioButton1
 id radioButton2
 id radioButton3
+id radioGroup
 id ratio
 id rectangles
+id recyclerViewcomments
 id recyclerview
 id reverseSawtooth
 id right
@@ -3402,6 +3430,7 @@ id rounded
 id row_index_key
 id rtl
 id rv_under
+id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3437,6 +3466,7 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
+id secondcomment
 id select_dialog_listview
 id selected
 id selection_type
@@ -3448,6 +3478,7 @@ id showCustom
 id showHome
 id showTitle
 id signInButton
+id signupToAppButton
 id sin
 id skipCollapsed
 id skipped
@@ -3505,6 +3536,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3538,6 +3571,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateButton
 id useLogo
 id user_birth
 id user_degree
@@ -3547,6 +3581,7 @@ id user_image
 id user_name
 id username
 id vertical_only
+id view1
 id view_offset_helper
 id view_pager
 id view_transition
@@ -3681,9 +3716,11 @@ layout activity_login
 layout activity_main
 layout activity_plant_introduce
 layout activity_profile
+layout activity_qrcode
 layout activity_search_plant
 layout activity_signup
 layout activity_signup2
+layout activity_video
 layout activity_weather
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3771,6 +3808,7 @@ layout plant_rv_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout single_view_comment
 layout single_view_post
 layout support_simple_spinner_dropdown_item
 layout weather_rv_item
@@ -3779,6 +3817,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation bottom_button
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string User_name
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -5193,6 +5232,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values

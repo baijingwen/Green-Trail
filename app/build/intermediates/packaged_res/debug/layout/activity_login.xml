@@ -41,6 +41,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signupToAppButton"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:background="@drawable/mainpage_buttonbackground"
+            android:fontFamily="sans-serif-black"
+            android:text="signup"
+            android:textColor="#F6EFFF"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/loginToAppButton"
+            tools:layout_editor_absoluteX="23dp"
+            android:layout_marginTop="20dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -72,7 +85,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
-        android:hint="Username"
+        android:hint="Email"
         android:textColorHint="@color/black"
         app:counterEnabled="true"
         app:counterMaxLength="23"
@@ -90,5 +103,6 @@
             android:alpha="0.6"
             android:maxLength="23" />
     </com.google.android.material.textfield.TextInputLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

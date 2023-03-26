@@ -1,5 +1,7 @@
 package com.example.myapplication;
 
+import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,13 +9,15 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link HomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements View.OnClickListener{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -54,11 +58,37 @@ public class HomeFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+    private ImageButton profileBtn, searchBtn;
+    private ImageView weather;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        profileBtn = view.findViewById(R.id.profile);
+        profileBtn.setOnClickListener(this);
+        searchBtn = view.findViewById(R.id.button_search);
+        searchBtn.setOnClickListener(this);
+
+        weather = view.findViewById(R.id.weather_little_picture);
+        weather.setOnClickListener(this);
+        return view;
+    }
+
+    @Override
+    public void onClick (View view) {
+        switch (view.getId()) {
+            case R.id.profile:
+                startActivity(new Intent(getActivity().getApplication(), ProfileActivity.class));
+                break;
+            case R.id.button_search:
+                startActivity(new Intent(getActivity().getApplication(), search_plant_Activity.class));
+                break;
+            case R.id.weather_little_picture:
+                startActivity(new Intent(getActivity().getApplication(), WeatherActivity.class));
+                break;
+        }
     }
 }
