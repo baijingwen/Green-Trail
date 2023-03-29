@@ -46,14 +46,17 @@
             android:id="@+id/signupToAppButton"
             android:layout_width="350dp"
             android:layout_height="48dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="36dp"
             android:background="@drawable/mainpage_buttonbackground"
             android:fontFamily="sans-serif-black"
             android:text="signup"
             android:textColor="#F6EFFF"
             android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/loginToAppButton"
-            tools:layout_editor_absoluteX="23dp"
-            android:layout_marginTop="20dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginToAppButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.textfield.TextInputLayout

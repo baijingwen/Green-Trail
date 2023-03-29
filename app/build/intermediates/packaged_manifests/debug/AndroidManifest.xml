@@ -64,12 +64,6 @@
             android:name="com.example.myapplication.Signup"
             android:exported="false" />
         <activity
-            android:name="com.example.myapplication.ProfileFragment"
-            android:exported="false" />
-        <activity
-            android:name="com.example.myapplication.ForumFragment"
-            android:exported="false" />
-        <activity
             android:name="com.example.myapplication.AssignmentActivity"
             android:exported="false" />
         <activity

@@ -2872,6 +2872,7 @@ int drawable ic_keyboard_black_24dp 0x7f0800c7
 int drawable ic_launcher_background 0x7f0800c8
 int drawable ic_launcher_foreground 0x7f0800c9
 int drawable ic_lock 0x7f0800ca
+int drawable ic_logout 0x7f08013a
 int drawable ic_m3_chip_check 0x7f0800cb
 int drawable ic_m3_chip_checked_circle 0x7f0800cc
 int drawable ic_m3_chip_close 0x7f0800cd
@@ -2901,6 +2902,10 @@ int drawable input_comment_bg 0x7f0800e4
 int drawable intro_background 0x7f0800e5
 int drawable loading 0x7f0800e6
 int drawable login_logo 0x7f0800e7
+int drawable logo_1 0x7f080136
+int drawable logo_2 0x7f080137
+int drawable logo_n 0x7f080138
+int drawable logo_s 0x7f080139
 int drawable m3_appbar_background 0x7f0800e8
 int drawable m3_avd_hide_password 0x7f0800e9
 int drawable m3_avd_show_password 0x7f0800ea
@@ -3183,7 +3188,6 @@ int id east 0x7f0a00c5
 int id edit_query 0x7f0a00c6
 int id elastic 0x7f0a00c7
 int id email 0x7f0a00c8
-int id emailChange 0x7f0a00c9
 int id embed 0x7f0a00ca
 int id end 0x7f0a00cb
 int id endToStart 0x7f0a00cc
@@ -3285,6 +3289,8 @@ int id locale 0x7f0a012b
 int id loginButton 0x7f0a012c
 int id loginToAppButton 0x7f0a012d
 int id logodraft 0x7f0a012e
+int id logout 0x7f0a026c
+int id logoutButton 0x7f0a026d
 int id ltr 0x7f0a012f
 int id m3_side_sheet 0x7f0a0130
 int id map 0x7f0a0131
@@ -3812,6 +3818,7 @@ int layout single_view_post 0x7f0d007e
 int layout support_simple_spinner_dropdown_item 0x7f0d007f
 int layout weather_rv_item 0x7f0d0080
 int menu bottombutton_menu 0x7f0f0000
+int menu logout 0x7f0f0001
 int mipmap ic_launcher 0x7f100000
 int mipmap ic_launcher_round 0x7f100001
 int navigation bottom_button 0x7f110000

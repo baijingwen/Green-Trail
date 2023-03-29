@@ -41,12 +41,6 @@
             android:name=".Signup"
             android:exported="false" />
         <activity
-            android:name=".ProfileFragment"
-            android:exported="false" />
-        <activity
-            android:name=".ForumFragment"
-            android:exported="false" />
-        <activity
             android:name=".AssignmentActivity"
             android:exported="false" />
         <activity
