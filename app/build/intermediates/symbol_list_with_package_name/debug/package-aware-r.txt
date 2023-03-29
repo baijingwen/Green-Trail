@@ -2873,6 +2873,7 @@ drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_lock
+drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2902,6 +2903,10 @@ drawable input_comment_bg
 drawable intro_background
 drawable loading
 drawable login_logo
+drawable logo_1
+drawable logo_2
+drawable logo_n
+drawable logo_s
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3184,7 +3189,6 @@ id east
 id edit_query
 id elastic
 id email
-id emailChange
 id embed
 id end
 id endToStart
@@ -3286,6 +3290,8 @@ id locale
 id loginButton
 id loginToAppButton
 id logodraft
+id logout
+id logoutButton
 id ltr
 id m3_side_sheet
 id map
@@ -3813,6 +3819,7 @@ layout single_view_post
 layout support_simple_spinner_dropdown_item
 layout weather_rv_item
 menu bottombutton_menu
+menu logout
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation bottom_button

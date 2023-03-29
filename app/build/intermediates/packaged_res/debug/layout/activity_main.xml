@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90D9C0"
+
     tools:context=".MainActivity">
 
     <Button
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/draft_logo" />
+        app:srcCompat="@drawable/logo_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

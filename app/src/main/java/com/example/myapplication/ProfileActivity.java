@@ -49,7 +49,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //Change
         fullNameEditText = (TextInputEditText) findViewById(R.id.fullNameChange);
-        emailEditText = (TextInputEditText) findViewById(R.id.emailChange);
+//        emailEditText = (TextInputEditText) findViewById(R.id.emailChange);
         degreeEditText = (TextInputEditText) findViewById(R.id.degreeChange);
 
         //btn

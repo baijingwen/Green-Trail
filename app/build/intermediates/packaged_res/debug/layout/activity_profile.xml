@@ -172,20 +172,6 @@
                     android:drawableLeft="@drawable/ic_person"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email"
-                android:layout_marginBottom="10dp">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/emailChange"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="billbaij@gmail.com"
-                    android:drawablePadding="10dp"
-                    android:drawableLeft="@drawable/ic_email"/>
-            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -248,6 +234,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Update"
+                android:fontFamily="@font/bungee"
+                android:background="#9AB098"/>
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Logout"
                 android:fontFamily="@font/bungee"
                 android:background="#9AB098"/>
 

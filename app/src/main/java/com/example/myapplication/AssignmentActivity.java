@@ -18,9 +18,11 @@ public class AssignmentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_assignment);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        bottomNavigationView.getMenu().getItem(1).setEnabled(false);
+//        bottomNavigationView.getMenu().getItem(1).setEnabled(false);
 
         NavController navController = Navigation.findNavController(this, R.id.fragment);
+
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.homeFragment,R.id.momentsFragment,R.id.mapFragment, R.id.myPlantsFragment

@@ -50,6 +50,7 @@ drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_lock
+drawable ic_logout
 drawable ic_map
 drawable ic_message
 drawable ic_person
@@ -70,6 +71,10 @@ drawable input_add_post_bg
 drawable input_comment_bg
 drawable intro_background
 drawable login_logo
+drawable logo_1
+drawable logo_2
+drawable logo_n
+drawable logo_s
 drawable mainpage_button
 drawable mainpage_buttonbackground
 drawable searchplant_button
@@ -95,7 +100,6 @@ id degree
 id degreeChange
 id drawerlayout
 id email
-id emailChange
 id fab
 id fragment
 id fullName
@@ -124,6 +128,8 @@ id likeimage
 id loginButton
 id loginToAppButton
 id logodraft
+id logout
+id logoutButton
 id map
 id mapFragment
 id momentsFragment
@@ -197,6 +203,7 @@ layout single_view_comment
 layout single_view_post
 layout weather_rv_item
 menu bottombutton_menu
+menu logout
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation bottom_button
